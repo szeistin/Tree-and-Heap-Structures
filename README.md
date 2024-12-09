@@ -6,7 +6,6 @@
 - [Jemiel Honradez](https://github.com/Jemhonradez)
 
 ---
-
 ## Project Overview
 
 This project demonstrates the implementation of three fundamental data structures in C++:
@@ -25,61 +24,34 @@ The primary goal is to help users understand and work with these essential data 
 
 ## How to Run the Code
 
-1. **Prerequisites**:
-   - A C++ compiler (e.g., GCC, MinGW, Visual Studio, or Clang).
-   - Git (optional, for cloning the repository).
+### INSTRUCTIONS: Choosing a Data Structure:
 
-2. **Steps to Compile and Run**:
-   - Clone the repository o## Instructions
+- Choose **1** for **Binary Search Tree**.
+- Choose **2** for **Binary Tree**.
+- Choose **3** for **Min Heap**.
+- Choose **4** for **Max Heap**.
+- Choose **5** to exit the program.
 
-### Task 1: Insert Superhero Tasks into a Max-Heap
-- You will insert superhero tasks (represented by their priority level) into a **Max-Heap**.
-- The priority is represented as an integer, where higher values have higher priority.
-- After each insertion, the Max-Heap will be displayed as a tree structure.
+### 4. Performing Operations:
 
-#### Steps:
-1. Input a task's priority level (e.g., 40, 25, 10, etc.).
-2. To stop inserting tasks, input `-1`.
-3. The heap will be displayed as a tree after each insertion.
+#### For **Binary Search Tree (BST)**:
+- **Insert**: Insert a value by choosing the Insert option. The program will prompt you to enter a value, and it will be inserted into the tree.
+- **Display Traversals**: Display the tree in different traversal orders (Preorder, Inorder, Postorder).
+- **Search**: Search for a value by choosing the Search option and entering the value you want to find.
+- **Delete**: Delete a node by selecting the Delete option and entering the value of the node you want to remove.
 
----
+#### For **Binary Tree**:
+- **Insert**: Insert a node into the binary tree.
+- **Display Traversals**: Display the tree in Preorder, Inorder, or Postorder format.
+- **Search**: Search for a node by entering the value.
+- **Delete**: Delete a node by entering the value, and the node will be removed.
 
-### Task 2: Remove the Root Task from the Max-Heap
-- The root task, which has the highest priority, will be removed from the heap.
-- After each deletion, the heap will be displayed as a tree.
+#### For **Min and Max Heaps**:
+- **Insert**: Insert values into the Min-Heap or Max-Heap.
+- **Display Heap**: After each insertion, you can display the heap to view its structure. In a **Min-Heap**, the smallest value will always be at the root, and in a **Max-Heap**, the largest value will be at the root.
 
-#### Steps:
-1. The program will automatically remove the root task from the Max-Heap.
-2. The updated heap will be displayed after each deletion.
-
----
-
-### Task 3: Heapify a Random List into a Min-Heap
-- You will input a list of integers that represent task priorities.
-- The list will be heapified into a **Min-Heap**, and the tree will be displayed.
-
-#### Steps:
-1. Enter a list of priorities as space-separated integers (e.g., `30 20 15 5 10`).
-2. The list will be displayed as a Min-Heap after conversion.
-
----
-## How to download the source code:
-    ```bass
-     git clone https://github.com/your-username/your-repository.git
-     cd your-repository
-     ```
-   - Compile the code using a C++ compiler:
-     ```bash
-     g++ -o main main.cpp
-     ```
-   - Run the compiled program:
-     ```bash
-     ./main
-     ```
-
-3. **Follow the Menu Options**:
-   - Select the data structure you want to work with.
-   - Use the sub-menu to perform various operations like insertion, deletion, searching, and traversals.
+### 5. Exiting the Program:
+You can exit the program at any time by selecting **Exit** from the Main Menu.
 
 ---
 
